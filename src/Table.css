@@ -1,0 +1,45 @@
+#main {
+    overflow-x: auto;
+    position: absolute;
+    top:10rem;
+    left:3rem;
+    right:3rem;
+   
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color:white;
+    padding: 2rem;
+  }
+  
+  thead {
+    background-color :white;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  tr:nth-child(even) {
+    background-color: white;
+  }
+  
+  tr:hover {
+    background-color: white;
+  }
+  
+  th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 0;
+  }
+  
